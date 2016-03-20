@@ -1,0 +1,13 @@
+"*":
+  core:
+    disabledPackages: [
+      "tree-view"
+    ]
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "2dd7b5fe-b3c0-ee91-59c1-98900691a247"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  welcome:
+    showOnStartup: false
