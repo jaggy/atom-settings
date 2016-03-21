@@ -17,16 +17,15 @@
     ]
     themes: [
       "atom-material-ui"
-      "predawn-syntax"
+      "itg-dark-syntax"
     ]
   editor:
     fontFamily: "Inconsolata, Fira Code, Monaco, monospace"
     fontSize: 17
     invisibles: {}
-    lineHeight: 2.5
+    lineHeight: 3.25
     scrollPastEnd: true
     showIndentGuide: true
-    showInvisibles: true
     tabLength: 4
   "exception-reporting":
     userId: "2dd7b5fe-b3c0-ee91-59c1-98900691a247"
