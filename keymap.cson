@@ -27,6 +27,21 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'atom-text-editor':
-  'ctrl-p': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-e': 'tree-view:toggle'
-  # 'ctrl+a x': 'pane:split-right-and-copy-active-item'
+    'ctrl-e': 'tree-view:toggle'
+    'ctrl-p': 'fuzzy-finder:toggle-file-finder'
+
+'body':
+    'cmd-w j': 'window:focus-pane-below'
+    'cmd-w k': 'window:focus-pane-above'
+    'cmd-w h': 'window:focus-pane-on-left'
+    'cmd-w l': 'window:focus-pane-on-right'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+    'ctrl-e': 'native!'
+    'ctrl-e': 'tree-view:toggle'
+    ';': 'ex-mode:open'
+
+'atom-text-editor.vim-mode':
+    'ctrl-e': 'tree-view:toggle'
+    'ctrl-w |': 'pane:split-right-and-copy-active-item'
+    'ctrl-w -': 'pane:split-down-and-copy-active-item'
