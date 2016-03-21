@@ -45,3 +45,7 @@
     'ctrl-e': 'tree-view:toggle'
     'ctrl-w |': 'pane:split-right-and-copy-active-item'
     'ctrl-w -': 'pane:split-down-and-copy-active-item'
+
+'atom-text-editor.vim-mode.insert-mode':
+    '0 -': 'editor:insert-thin-arrow'
+    '- =': 'editor:insert-fat-arrow'
