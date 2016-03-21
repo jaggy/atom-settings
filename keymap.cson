@@ -26,15 +26,13 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
-'atom-text-editor':
+'body':
     'ctrl-e': 'tree-view:toggle'
     'ctrl-p': 'fuzzy-finder:toggle-file-finder'
-
-'body':
-    'cmd-w j': 'window:focus-pane-below'
-    'cmd-w k': 'window:focus-pane-above'
-    'cmd-w h': 'window:focus-pane-on-left'
-    'cmd-w l': 'window:focus-pane-on-right'
+    'ctrl-w j': 'window:focus-pane-below'
+    'ctrl-w k': 'window:focus-pane-above'
+    'ctrl-w h': 'window:focus-pane-on-left'
+    'ctrl-w l': 'window:focus-pane-on-right'
 
 'atom-text-editor.vim-mode:not(.insert-mode)':
     'ctrl-e': 'native!'
