@@ -1,4 +1,6 @@
 "*":
+  "atom-autocomplete-php":
+    binComposer: "composer"
   "atom-material-ui":
     colors:
       genAccent: true
@@ -10,6 +12,7 @@
       blendTabs: true
       compactList: true
     ui: {}
+  "autocomplete-php": {}
   core:
     automaticallyUpdate: false
     disabledPackages: [
@@ -17,13 +20,16 @@
     ]
     themes: [
       "atom-material-ui"
-      "itg-dark-syntax"
+      "atom-dark-syntax"
     ]
+  docblockr:
+    param_description: false
+    return_description: false
   editor:
     fontFamily: "Inconsolata, Fira Code, Monaco, monospace"
     fontSize: 17
     invisibles: {}
-    lineHeight: 3.25
+    lineHeight: 2.5
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
@@ -31,6 +37,8 @@
     userId: "2dd7b5fe-b3c0-ee91-59c1-98900691a247"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
+  linter: {}
+  "linter-twig": {}
   "vim-mode": {}
   welcome:
     showOnStartup: false
