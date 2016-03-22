@@ -47,3 +47,40 @@
          |
          */
          """
+
+    # Laravel Specific
+    'has many':
+        'prefix': 'lhm'
+        'body': """
+        public function ${1:function_name}() : HasMany
+        {
+            return $this->hasMany(${2:has_many}::class$0);
+        }
+        """
+
+    'belongs to':
+        'prefix': 'lbt'
+        'body': """
+        public function ${1:function_name}() : BelongsTo
+        {
+            return $this->belongsTo(${2:has_many}::class$0);
+        }
+        """
+
+    'has one':
+        'prefix': 'lho'
+        'body': """
+        public function ${1:function_name}() : BelongsTo
+        {
+            return $this->hasOne(${2:has_many}::class$0);
+        }
+        """
+
+    'belongs to many':
+        'prefix': 'lbtm'
+        'body': """
+        public function ${1:function_name}() : BelongsTo
+        {
+            return $this->belongsToMany(${2:has_many}::class$0);
+        }
+        """
