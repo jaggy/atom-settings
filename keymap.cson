@@ -34,6 +34,9 @@
     'ctrl-w h': 'window:focus-pane-on-left'
     'ctrl-w l': 'window:focus-pane-on-right'
 
+'atom-text-editor':
+    'cmd-n': 'advanced-open-file:toggle'
+
 'atom-text-editor.vim-mode:not(.insert-mode)':
     'ctrl-e': 'native!'
     'ctrl-e': 'tree-view:toggle'

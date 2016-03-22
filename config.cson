@@ -1,6 +1,7 @@
 "*":
   "atom-autocomplete-php":
     binComposer: "composer"
+    binPhp: "/usr/local/php5/bin/php"
   "atom-material-ui":
     colors:
       genAccent: true
@@ -17,17 +18,18 @@
     automaticallyUpdate: false
     disabledPackages: [
       "tabs"
+      "linter-twig"
     ]
     themes: [
       "atom-material-ui"
-      "atom-dark-syntax"
+      "ilm-shell-syntax"
     ]
   docblockr:
     param_description: false
     return_description: false
   editor:
     fontFamily: "Inconsolata, Fira Code, Monaco, monospace"
-    fontSize: 17
+    fontSize: 18
     invisibles: {}
     lineHeight: 2.5
     scrollPastEnd: true
@@ -38,7 +40,15 @@
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   linter: {}
+  "linter-php":
+    executablePath: "/usr/local/php5/bin/php"
+  "linter-phpcs": {}
+  "linter-phpmd": {}
   "linter-twig": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+    squashDirectoryNames: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
