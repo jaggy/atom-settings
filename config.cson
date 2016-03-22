@@ -29,7 +29,7 @@
     return_description: false
   editor:
     fontFamily: "Inconsolata, Fira Code, Monaco, monospace"
-    fontSize: 18
+    fontSize: 17
     invisibles: {}
     lineHeight: 2.5
     scrollPastEnd: true
@@ -39,10 +39,16 @@
     userId: "2dd7b5fe-b3c0-ee91-59c1-98900691a247"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
-  linter: {}
+  linter:
+    errorPanelHeight: 316
   "linter-php":
     executablePath: "/usr/local/php5/bin/php"
-  "linter-phpcs": {}
+  "linter-phpcs":
+    ignorePatterns: [
+      "*.blade.php"
+      "*.twig"
+      "database/"
+    ]
   "linter-phpmd": {}
   "linter-twig": {}
   "tree-view":
