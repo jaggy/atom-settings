@@ -15,10 +15,14 @@
     ui: {}
   "autocomplete-php": {}
   core:
-    automaticallyUpdate: false
     disabledPackages: [
       "tabs"
       "linter-twig"
+      "linter-jade"
+      "linter-php"
+      "linter-phpcs"
+      "linter-phpmd"
+      "linter"
     ]
     themes: [
       "atom-material-ui"
@@ -51,8 +55,8 @@
     ]
   "linter-phpmd": {}
   "linter-twig": {}
+  "relative-numbers": {}
   "tree-view":
-    hideVcsIgnoredFiles: true
     showOnRightSide: true
     squashDirectoryNames: true
   "vim-mode": {}
