@@ -50,3 +50,9 @@
 'atom-text-editor.vim-mode.insert-mode':
     '0 -': 'editor:insert-thin-arrow'
     '- =': 'editor:insert-fat-arrow'
+
+'atom-text-editor[data-grammar="text html vue"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor[data-grammar="text html twig"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'

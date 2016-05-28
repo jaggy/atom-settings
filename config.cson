@@ -26,7 +26,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "ilm-shell-syntax"
+      "base16-tomorrow-light-theme"
     ]
   docblockr:
     param_description: false
@@ -56,9 +56,39 @@
   "linter-phpmd": {}
   "linter-twig": {}
   "relative-numbers": {}
+  "terminal-plus":
+    style:
+      animationSpeed: 1.5
   "tree-view":
     showOnRightSide: true
     squashDirectoryNames: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
+".css.source.twig":
+  editor:
+    tabLength: 4
+".html.text.twig":
+  editor:
+    tabLength: 4
+".jade.source":
+  editor:
+    tabLength: 4
+".js.source.twig":
+  editor:
+    tabLength: 4
+".json.source.twig":
+  editor:
+    tabLength: 4
+".pyjade.source":
+  editor:
+    tabLength: 4
+".source.twig":
+  editor:
+    tabLength: 4
+".source.twig.yaml":
+  editor:
+    tabLength: 4
+".text.twig.xml":
+  editor:
+    tabLength: 4
