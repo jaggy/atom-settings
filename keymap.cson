@@ -51,6 +51,9 @@
     '0 -': 'editor:insert-thin-arrow'
     '- =': 'editor:insert-fat-arrow'
 
+'atom-text-editor[data-grammar="text html php blade"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+
 'atom-text-editor[data-grammar="text html vue"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 

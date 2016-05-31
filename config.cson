@@ -26,16 +26,15 @@
     ]
     themes: [
       "atom-material-ui"
-      "base16-tomorrow-light-theme"
+      "ilm-shell-syntax"
     ]
   docblockr:
     param_description: false
     return_description: false
   editor:
-    fontFamily: "Inconsolata, Fira Code, Monaco, monospace"
-    fontSize: 17
+    fontFamily: "Inconsolata for Powerline, Fira Code, Monaco, monospace"
+    fontSize: 16
     invisibles: {}
-    lineHeight: 2.5
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
@@ -65,6 +64,10 @@
   "vim-mode": {}
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
 ".css.source.twig":
   editor:
     tabLength: 4
