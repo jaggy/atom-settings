@@ -23,7 +23,9 @@
       "linter-phpcs"
       "linter-phpmd"
       "linter"
+      "power-mode"
     ]
+    restorePreviousWindowsOnStart: false
     themes: [
       "atom-material-ui"
       "ilm-shell-syntax"
@@ -32,11 +34,12 @@
     param_description: false
     return_description: false
   editor:
-    fontFamily: "Inconsolata for Powerline, Fira Code, Monaco, monospace"
-    fontSize: 16
+    fontFamily: "Operator SSm, Inconsolata for Powerline, Fira Code, Monaco, monospace"
     invisibles: {}
+    lineHeight: 1.9
     scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
     tabLength: 4
   "exception-reporting":
     userId: "2dd7b5fe-b3c0-ee91-59c1-98900691a247"

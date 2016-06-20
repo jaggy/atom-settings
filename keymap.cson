@@ -33,6 +33,10 @@
     'ctrl-w k': 'window:focus-pane-above'
     'ctrl-w h': 'window:focus-pane-on-left'
     'ctrl-w l': 'window:focus-pane-on-right'
+    'ctrl-a \\': 'editor:maximize-terminal-plus'
+
+'.terminal-plus':
+    'ctrl-a \\': 'editor:maximize-terminal-plus'
 
 'atom-text-editor':
     'cmd-n': 'advanced-open-file:toggle'

@@ -15,3 +15,6 @@ atom.commands.add 'atom-text-editor', 'editor:insert-thin-arrow', ->
 
 atom.commands.add 'atom-text-editor', 'editor:insert-fat-arrow', ->
     atom.workspace.getActiveTextEditor().insertText('=>')
+
+atom.commands.add 'atom-text-editor', 'editor:maximize-terminal-plus', ->
+    document.querySelector('.terminal-plus [click="maximize"]').click()
