@@ -56,10 +56,13 @@
     '- =': 'editor:insert-fat-arrow'
 
 'atom-text-editor[data-grammar="text html php blade"]:not([mini])':
-    'tab': 'emmet:expand-abbreviation-with-tab'
+    # 'tab': 'emmet:expand-abbreviation-with-tab'
+    'ctrl-y ,': 'emmet:expand-abbreviation-with-tab'
 
 'atom-text-editor[data-grammar="text html vue"]:not([mini])':
-    'tab': 'emmet:expand-abbreviation-with-tab'
+    # 'tab': 'emmet:expand-abbreviation-with-tab'
+    'ctrl-y ,': 'emmet:expand-abbreviation-with-tab'
 
 'atom-text-editor[data-grammar="text html twig"]:not([mini])':
-    'tab': 'emmet:expand-abbreviation-with-tab'
+    # 'tab': 'emmet:expand-abbreviation-with-tab'
+    'ctrl-y ,': 'emmet:expand-abbreviation-with-tab'

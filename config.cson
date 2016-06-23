@@ -24,6 +24,7 @@
       "linter-phpmd"
       "linter"
       "power-mode"
+      "nvim-mode"
     ]
     restorePreviousWindowsOnStart: false
     themes: [
@@ -34,7 +35,7 @@
     param_description: false
     return_description: false
   editor:
-    fontFamily: "Operator SSm, Inconsolata for Powerline, Fira Code, Monaco, monospace"
+    fontFamily: "Operator Mono, Inconsolata for Powerline, Fira Code, Monaco, monospace"
     invisibles: {}
     lineHeight: 1.9
     scrollPastEnd: true
