@@ -16,7 +16,6 @@
   "autocomplete-php": {}
   core:
     disabledPackages: [
-      "tabs"
       "linter-twig"
       "linter-jade"
       "linter-php"
@@ -25,6 +24,7 @@
       "linter"
       "power-mode"
       "nvim-mode"
+      "tabs"
     ]
     restorePreviousWindowsOnStart: false
     themes: [
@@ -35,7 +35,7 @@
     param_description: false
     return_description: false
   editor:
-    fontFamily: "Operator Mono, Inconsolata for Powerline, Fira Code, Monaco, monospace"
+    fontFamily: "Fira Code, Inconsolata-dz for Powerline, Operator Mono, Monaco, monospace"
     invisibles: {}
     lineHeight: 1.9
     scrollPastEnd: true
@@ -63,7 +63,6 @@
     style:
       animationSpeed: 1.5
   "tree-view":
-    showOnRightSide: true
     squashDirectoryNames: true
   "vim-mode": {}
   welcome:
